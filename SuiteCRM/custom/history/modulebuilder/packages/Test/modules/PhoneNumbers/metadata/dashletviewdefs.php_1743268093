@@ -1,0 +1,16 @@
+<?php
+$dashletData['TEST_PhoneNumbersDashlet']['searchFields'] = array (
+  'phone_number' => 
+  array (
+    'default' => '',
+  ),
+);
+$dashletData['TEST_PhoneNumbersDashlet']['columns'] = array (
+  'phone_number' => 
+  array (
+    'type' => 'phone',
+    'label' => 'LBL_PHONE_NUMBER',
+    'width' => '15%',
+    'default' => true,
+  ),
+);
